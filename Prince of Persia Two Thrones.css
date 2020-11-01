@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fondo{
+	background-image: url('pop3/titulo pop e.jpg');
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+
+}
+header{
+	background: #000;
+	width: 100%;
+	height: 0 auto;
+	text-align: center;
+	line-height: 100px;
+}
+.clearfix{
+	clear: both;
+}
+header::after {
+	content:"";
+	display: table;
+	clear: both;
+}
+nav {
+	float: left;
+}
+nav ul{
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+nav ul li a {
+	padding: 10px;
+	color: white;
+	text-decoration-color: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+nav a:hover{
+	background-color: #background: rgba(212,31,8,1);
+background: -moz-linear-gradient(top, rgba(212,31,8,1) 0%, rgba(241,44,9,1) 0%, rgba(211,37,13,1) 35%, rgba(207,38,23,1) 50%, rgba(207,38,23,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,31,8,1)), color-stop(0%, rgba(241,44,9,1)), color-stop(35%, rgba(211,37,13,1)), color-stop(50%, rgba(207,38,23,1)), color-stop(100%, rgba(207,38,23,1)));
+background: -webkit-linear-gradient(top, rgba(212,31,8,1) 0%, rgba(241,44,9,1) 0%, rgba(211,37,13,1) 35%, rgba(207,38,23,1) 50%, rgba(207,38,23,1) 100%);
+background: -o-linear-gradient(top, rgba(212,31,8,1) 0%, rgba(241,44,9,1) 0%, rgba(211,37,13,1) 35%, rgba(207,38,23,1) 50%, rgba(207,38,23,1) 100%);
+background: -ms-linear-gradient(top, rgba(212,31,8,1) 0%, rgba(241,44,9,1) 0%, rgba(211,37,13,1) 35%, rgba(207,38,23,1) 50%, rgba(207,38,23,1) 100%);
+background: linear-gradient(to bottom, rgba(212,31,8,1) 0%, rgba(241,44,9,1) 0%, rgba(211,37,13,1) 35%, rgba(207,38,23,1) 50%, rgba(207,38,23,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d41f08', endColorstr='#cf2617', GradientType=0 );
+}
+.container{
+	padding: 150px;
+	width: 60%;
+	margin: 0px auto;
+	color: white;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div .gallery:hover {
+  border: 1px solid #777;
+}
+
+div .gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div .desc {
+  padding: 15px;
+  text-align: center;
+}
+footer{
+	width: 100%;
+	height: 90px;
+	background: #000;
+	color: white;
+
+}
+footer h2{
+	font: oblique bold 120% cursive
+	padding: 15px;
+}
+.foot img {	
+	float: right;
+	width: 5%;
+	height: auto;
+}
+.Ubisoft{
+	width: 10%;
+	float: right;
+	height: auto;
+	padding: 10px;
+}
+.imagen{
+	background-image: url('pop3/fondo2.jpg');
+	width: 100%;
+	height: 194vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+}
+@media only screen and (max-width: 600px) {
+
+	.fondo{
+	background-image: url('pop3/titulo pop e.jpg');
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+
+}
+	.imagen{
+	background-color: #000;
+	width: 100%;
+	height: 450vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+
+	}
+	ul{
+		width: 100%;
+		height: auto;
+
+	}
+	ul li{
+		width: 100%;
+		height: auto;
+
+	}
+	nav{
+		float: none;
+	}
+	nav li {
+	margin-left: 5px;
+	}
+	nav ul li a {
+		padding: 5px;
+		font-size: 20px;
+	}
+	.container{
+		padding: 0;
+		width: 85%;
+		margin: 5px auto;
+		font-size: 25px;
+	}
+}
