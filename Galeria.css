@@ -120,3 +120,8 @@ footer h2{
 	background-position: center center;
 	background-attachment: fixed;
 }
+	div .gallery2 img {
+  width: 100%;
+  height: auto;
+}
+}
